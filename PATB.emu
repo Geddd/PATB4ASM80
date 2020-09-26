@@ -1,0 +1,16 @@
+cpu I8080
+
+
+memory.ram.from 0x0800
+memory.ram.to 0x4000
+memory.rom.from 0x0000
+memory.rom.to 0x07ff
+
+serial simple
+serial.in 17
+serial.out 17
+serial.status 16
+serial.status.available 0x01
+serial.status.ready 0x02
+
+terminal.caps 1
