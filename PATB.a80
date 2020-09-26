@@ -78,7 +78,6 @@ SS1:        LDAX    D ;*** IGNBLK/RST 5 ***
             CALL    FIN ;CHECK END OF COMMAND
             JMP     QWHAT ;PRINT "WHAT?" IF WRONG
             DB      "G" 
-TESTING:    DB      "VULCAN BASIC INSERTION TEST"
 ; 
             RST     5 ;*** TSTV OR RST 7 ***
             SUI     40H ;TEST VARIABLES
